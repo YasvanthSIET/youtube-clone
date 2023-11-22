@@ -40,6 +40,7 @@ import thumbnail12 from './assets/Thumbnail-12.png';
 const Body = () => {
     return(
         <main>
+            {/* Side-NavBar  */}
             <div className="side-nav">
                 <ul className="nav my-2">
                     <li className="nav-link active"><img src={home} alt="home" /><span>Home</span></li>
@@ -65,6 +66,8 @@ const Body = () => {
                     </div>
                 </ul>
             </div>
+
+            {/* Video-Content */}
             <div className="content">
                 <div class="videos">
                     <div class="video">
@@ -79,8 +82,8 @@ const Body = () => {
                                 <h3>
                                     UX Design-What is it?(from AJ & smart) 
                                 </h3>
-                                <a href="#">AJ&smart</a>
-                                <span> 15M Views • 3 Years Ago </span>
+                                <span>AJ&smart</span>
+                                <span>15M Views • 3 Years Ago </span>
                             </div>
                         </div>
                     </div>           
@@ -96,8 +99,8 @@ const Body = () => {
                                 <h3>
                                     Travel anywhere | 48-visa free
                                 </h3>
-                                <a href="#">Nadir On The Go</a>
-                                <span> 1.7M Views • 3 Months Ago </span>
+                                <span>Nadir On The Go</span>
+                                <span>1.7M Views • 3 Months Ago </span>
                             </div>
                         </div>
                     </div>
@@ -113,8 +116,8 @@ const Body = () => {
                                 <h3>
                                     14 Advanced Tips to Design Faster in Figma
                                 </h3>
-                                <a href="#">Mizko</a>
-                                <span> 53K Views • 1 year Ago </span>
+                                <span>Mizko</span>
+                                <span>53K Views • 1 year Ago </span>
                             </div>
                         </div>
                     </div>
@@ -130,8 +133,8 @@ const Body = () => {
                                 <h3>
                                     Bulbuli | Coke Studio Bangla | Season 1 | Rituraj x Nandhita
                                 </h3>
-                                <a href="#">Coke Studio Bangla</a>
-                                <span> 1.5M Views • 2 days Ago </span>
+                                <span>Coke Studio Bangla</span>
+                                <span>1.5M Views • 2 days Ago </span>
                             </div>
                         </div>
                     </div>
@@ -147,8 +150,8 @@ const Body = () => {
                                 <h3>
                                     INFINIX Note 12 pro | AMOLED | Helio G88 Processor
                                 </h3>
-                                <a href="#">ATC Android ToTo company</a>
-                                <span> 45 Views • 3 days Ago </span>
+                                <span>ATC Android ToTo company</span>
+                                <span>45 Views • 3 days Ago </span>
                             </div>
                         </div>
                     </div>
@@ -164,8 +167,8 @@ const Body = () => {
                                 <h3>
                                     My First UX Design case study | My first Job
                                 </h3>
-                                <a href="#">aptarshi Prakash</a>
-                                <span> 4.8K Views • 1 year Ago </span>
+                                <span>aptarshi Prakash</span>
+                                <span>4.8K Views • 1 year Ago </span>
                             </div>
                         </div>
                     </div>
@@ -181,7 +184,7 @@ const Body = () => {
                                 <h3>
                                     My MIX
                                 </h3>
-                                <a href="#">Lopamudhra Mithra, Anupam Roy and more</a>
+                                <span>Lopamudhra Mithra, Anupam Roy and more</span>
                                 <span></span>
                             </div>
                         </div>
@@ -198,7 +201,7 @@ const Body = () => {
                                 <h3>
                                     Mix - Mombati | Mohan Serif | Dhakaiya Dose | Mahib Ashan ft Anifa
                                 </h3>
-                                <a href="#">Mohan Serif, Odd Signature, Shayan Chowdry Amob and more</a>
+                                <span>Mohan Serif, Odd Signature, Shayan Chowdry Amob and more</span>
                                 <span></span>
                             </div>
                         </div>
@@ -215,8 +218,8 @@ const Body = () => {
                                 <h3>
                                     Top Tech Skills You'll Need to Thrive in the Future Workforce
                                 </h3>
-                                <a href="#">Tiff in Tech</a>
-                                <span> 2M Views • 4 Months Ago </span>
+                                <span>Tiff in Tech</span>
+                                <span>2M Views • 4 Months Ago </span>
                             </div>
                         </div>
                     </div>
@@ -232,8 +235,8 @@ const Body = () => {
                                 <h3>
                                     Day in a life at Google
                                 </h3>
-                                <a href="#">Rishab Kumar</a>
-                                <span> 1M Views • 3 years Ago </span>
+                                <span>Rishab Kumar</span>
+                                <span>1M Views • 3 years Ago </span>
                             </div>
                         </div>
                     </div>
@@ -249,8 +252,8 @@ const Body = () => {
                                 <h3>
                                     What is Microsoft - Explained
                                 </h3>
-                                <a href="#">Kevin Startvert</a>
-                                <span> 897K Views • 9 Months Ago </span>
+                                <span>Kevin Startvert</span>
+                                <span>897K Views • 9 Months Ago </span>
                             </div>
                         </div>
                     </div>
@@ -266,8 +269,8 @@ const Body = () => {
                                 <h3>
                                     Incredible Gobi Desert Tour, Mongolia | DJI Mavic Pro
                                 </h3>
-                                <a href="#">Drink Tea & Travel</a>
-                                <span> 94K Views • 6 years Ago </span>
+                                <span>Drink Tea & Travel</span>
+                                <span>94K Views • 6 years Ago </span>
                             </div>
                         </div>
                     </div>
