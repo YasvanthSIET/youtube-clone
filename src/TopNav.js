@@ -1,7 +1,7 @@
 import React from "react";
 import hambarger from './assets/hambarger.png';
 import logo from './assets/Youtube logo.png';
-// import search from './assets/search.png';
+import search from './assets/search.png';
 import {FaSearch} from 'react-icons/fa';
 import mic from './assets/mic.png';
 import create from './assets/create.png';
@@ -24,13 +24,13 @@ const TopNav = () =>{
     return(
         <header className="container-fluid header">
             <div>
-                <span type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"><img src={hambarger} alt="hambarger" className="me-3" /></span>
+                <span type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"><img src={hambarger} alt="hambarger" className="me-3" /></span>
                 <img src={logo} alt="logo" className="me-2" />
             </div>
             <div class="search center">
                 <form action="">
                     <input type="text" placeholder="Search" />
-                    <button><FaSearch/></button>
+                    <button type="button" className="bg-secondary"><img src={search} alt="search" className="text-white"/></button>
                 </form>
                 <img src={mic} alt="mic" className="ms-2"/>
             </div>
@@ -43,13 +43,13 @@ const TopNav = () =>{
             </div>
 
             {/* off-canvas */}
-            <div class="offcanvas offcanvas-start bg-secondary" id="demo" >
+            <div class="offcanvas offcanvas-start bg-secondary" id="offcanvas" >
                 <div class="offcanvas-head">
                     <img src={hambarger} alt="hambarger" className="me-3 close" data-bs-dismiss="offcanvas"/>
                     <img src={logo} alt="logo"/>
                 </div>
-                <div class="offcanvas-body pt-4">
-                <ul className="nav d-flex flex-column gap-4">
+                <div class="offcanvas-body">
+                <ul className="nav d-flex flex-column pt-2">
                 <li className="nav-item"><img src={home} alt="home" /><span>Home</span></li>
                 <li className="nav-item"><img src={explore} alt="explore" /><span>Explore</span></li>
                 <li className="nav-item"><img src={shorts} alt="shorts" /><span>Shorts</span></li>
