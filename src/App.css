@@ -104,7 +104,7 @@ hr{
 }
 .offcanvas-head{
 	background-color: black;
-	height: 10%;
+	height: 40px;
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
