@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10%;
+    height: 40px;
 }
 .search {
 	display: flex;
@@ -23,7 +23,7 @@ body {
    
 .search form {
 	border: 1px solid #000000;
-	height: 8%;
+	height: 30px;
 }
 .search input {
 	width: 40vw;
