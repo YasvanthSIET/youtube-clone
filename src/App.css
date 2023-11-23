@@ -50,7 +50,7 @@ input:focus {
 
 /* Main-body starts */
 main {
-	height: calc(100vh - 10%);
+	height: calc(100vh - 40px);
 	display: flex;
 	background-color: #00000093;
 }
