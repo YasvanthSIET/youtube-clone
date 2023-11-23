@@ -24,8 +24,7 @@ const TopNav = () =>{
     return(
         <header className="container-fluid header">
             <div>
-            <span type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"><img src={hambarger} alt="hambarger" className="me-3" />
-                    </span>
+                <span type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"><img src={hambarger} alt="hambarger" className="me-3" /></span>
                 <img src={logo} alt="logo" className="me-2" />
             </div>
             <div class="search center">
@@ -43,6 +42,7 @@ const TopNav = () =>{
                 <FaUserAlt className="ms-4 text-white" />
             </div>
 
+            {/* off-canvas */}
             <div class="offcanvas offcanvas-start bg-secondary" id="demo" >
                 <div class="offcanvas-head">
                     <img src={hambarger} alt="hambarger" className="me-3 close" data-bs-dismiss="offcanvas"/>
