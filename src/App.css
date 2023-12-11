@@ -278,3 +278,31 @@ hr{
 	}
 }
 
+@media screen and (max-width:567px){
+	.search{
+		display: none;
+	}
+	#search-icon{
+		display: inline;
+		color: aliceblue;
+	}
+	#offcanvas{
+		width: auto;
+	}
+	main .side-nav{
+		display: none;
+	}
+	.video{
+		width: 100%;
+	}
+	.thumbnail img{
+		border-radius: 0%;
+	}
+	.content{
+		padding: 5px;
+	}
+	.details{
+		padding-left: 10px;
+	}
+}
+
